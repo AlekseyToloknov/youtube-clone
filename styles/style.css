@@ -1,0 +1,122 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#header {
+	min-height: 50px;
+}
+
+#menu-button, #logo {
+	background-image: url('https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNVER5Q.webp');
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+	float: left;
+}
+
+#menu-button {
+	background-position: -322px -168px;
+	height: 16px;
+	width: 16px;
+	top: 17px;
+	margin-right: 14px;
+}
+
+#logo {
+	background-position: -178px -227px;
+	height: 30px;
+	width: 73px;
+	top: 10px;
+}
+
+#form {
+	display: inline-block;
+	margin-left: 80px;
+	float: left;
+	position: relative;
+	top: 7px;
+}
+
+#form table input {
+	height: 23px;
+	width: 578px;
+	font-size: 16px;
+}
+
+#header td span {
+	display: inline-block;
+	background-image: url('https://www.gstatic.com/inputtools/images/tia.png');
+	height: 11px;
+	width: 19px;
+	position: relative;
+	right: 30px;
+	top: 2px;
+}
+
+#header #form button {
+	display: inline-block;
+	float: left;
+	height: 29px;
+	width: 67px;
+	position: relative;
+	right: 28px;
+	top: 0px;
+}
+
+#header #form button div {
+	background-image: url('https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNVER5Q.webp');
+	background-position: -694px -43px;
+	width: 15px;
+    height: 15px;
+    position: relative;
+    left: 35%;
+}
+
+#content {
+	background-color: #f0f0f0;
+}
+
+iframe {
+	margin-top: 10px;
+}
+
+#main-content {
+	display: inline-block;
+	float: left;
+}
+
+#video-name  {
+	margin-top: 5px;
+}
+
+#comments  {
+	margin-top: 3px;
+}
+
+#sidebar {
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+}
